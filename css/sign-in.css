@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+/* header-css-start */
+.fs-7 {
+  font-size: 14px !important;
+}
+.fs-8 {
+  font-size: 12px !important;
+}
+.fs-9 {
+  font-size: 10px !important;
+}
+.fs-10 {
+  font-size: 13px !important;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+.green-clr {
+  color: #0aad0a !important;
+}
+
+.form-control {
+  width: 450px;
+  background: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgb(214, 203, 203);
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.form-control:focus {
+  background: none !important;
+  outline: 6px solid rgba(127, 224, 17, 0.331);
+  background-color: var(--bs-body-bg);
+  border-color: rgb(10, 173, 10);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(10, 173, 10, 0.25);
+}
+.form-control::placeholder {
+  color: rgb(148, 145, 145);
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-check-input:focus {
+  border-color: #0aad0a;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #0aad0a40;
+}
+.form-check-input:checked {
+  background-color: #0aad0a;
+  border-color: #0aad0a;
+}
+
+.mx-6 {
+  margin: 0% 10%;
+  margin-top: 6%;
+}
+
+.me-6 {
+  margin-right: 8%;
+}
+.btn-color {
+  background-color: #0aad0a;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.btn-color:hover {
+  background-color: #099009;
+  color: white;
+}
+
+@media (max-width:576px) {
+.mx-6 {
+  margin: 0% 0%;
+  margin-top: 7%;
+}
+.me-6 {
+    margin-right: 0%;
+  }
+}
